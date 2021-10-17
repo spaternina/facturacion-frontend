@@ -12,7 +12,47 @@
 		}
 	},
 	"Forms": {
+		"T_FCTRCTKCRGLXM_453": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTENN_301": [
+					"AT27_CEDULAWJ301",
+					"AT39_APELLIDO301",
+					"AT43_CODIGOLD301",
+					"AT54_SEXORERS301",
+					"AT72_NOMBRETH301"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIETTET_YF58": [
+					"QM_CLIET8YF5T969_01",
+					"QM_CLIETEFY5E677_03",
+					"QM_CLIETT8FTY778_04",
+					"QM_CLIETTT5ET177_02",
+					"QM_CLIETYF58T466_05"
+				]
+			},
+			"subForms": [
+			]
+		}
 	},
 	"Queries": {
+		"Q_CLIETTET_YF58": {
+			"labels": [
+			]
+		},
+		"Q_PRODTTTO_LQ22": {
+			"labels": [
+			]
+		}
 	}
 }

@@ -1,0 +1,16 @@
+{
+	"EN_CLIENTENN_301": {
+		"queries": {
+			"Q_CLIETTET_YF58": {
+				"$ref": "../FCTRS/queries/Q_CLIETTET_YF58.json#"
+			}
+		}
+	},
+	"EN_PRODUCTOO_223": {
+		"queries": {
+			"Q_PRODTTTO_LQ22": {
+				"$ref": "../FCTRS/queries/Q_PRODTTTO_LQ22.json#"
+			}
+		}
+	}
+}
