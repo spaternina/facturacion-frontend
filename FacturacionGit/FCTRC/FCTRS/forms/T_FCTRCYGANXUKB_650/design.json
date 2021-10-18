@@ -33,6 +33,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_FCTRCYGANXUKB_650_264",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -133,7 +150,7 @@
 								"componentStyle": null,
 								"customEvents": [
 									{
-										"customEventId": "CEVA_010VA_VABUTTONFSHXCIG_675264_270",
+										"customEventId": "CEVA_010VA_VABUTTONPAOQHFC_992264_963",
 										"customizationLayer": 0,
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
@@ -170,7 +187,7 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONFSHXCIG_675264",
+								"name": "VA_VABUTTONPAOQHFC_992264",
 								"options": 0,
 								"order": 2,
 								"queryModule": null,
@@ -184,7 +201,7 @@
 									"userControlId": "Button"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VABUTTONFSHXCIG_675264",
+								"visualAttributeId": "VA_VABUTTONPAOQHFC_992264",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -256,7 +273,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_CANTIDADSAXKBOG_665264",
+								"visualAttributeId": "VA_CANTIDADWNBWXVX_824264",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -300,7 +317,7 @@
 									"userControlId": "TextLabel"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_PRECIOFNWYCRXQX_248264",
+								"visualAttributeId": "VA_PRECIOFDCLSBUVY_494264",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -344,7 +361,7 @@
 									"userControlId": "TextLabel"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_PRODUCTONOCUDTW_279264",
+								"visualAttributeId": "VA_PRODUCTOVSEJDRY_824264",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -353,10 +370,33 @@
 								"aggregateId": null,
 								"attributeValidations": [
 								],
-								"colSpan": 3,
+								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONZEICUKQ_595264_138",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 3,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -372,7 +412,7 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONMMAGLRQ_963264",
+								"name": "VA_VABUTTONZEICUKQ_595264",
 								"options": 0,
 								"order": 4,
 								"queryModule": null,
@@ -386,7 +426,7 @@
 									"userControlId": "Button"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VABUTTONMMAGLRQ_963264",
+								"visualAttributeId": "VA_VABUTTONZEICUKQ_595264",
 								"width": null,
 								"widthComposite": "D"
 							}

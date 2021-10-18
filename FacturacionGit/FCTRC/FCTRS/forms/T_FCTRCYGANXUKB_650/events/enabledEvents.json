@@ -1,8 +1,8 @@
 [
 	{
 		"attributeName": "",
-		"controlId": "VA_VABUTTONFSHXCIG_675264",
-		"controlName": "VA_VABUTTONFSHXCIG_675264",
+		"controlId": "VA_VABUTTONPAOQHFC_992264",
+		"controlName": "VA_VABUTTONPAOQHFC_992264",
 		"controlType": "Button",
 		"customEvents": [
 			{
@@ -12,5 +12,33 @@
 		],
 		"entityName": "Factura",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONZEICUKQ_595264",
+		"controlName": "VA_VABUTTONZEICUKQ_595264",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Factura",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_AGREGARFUA_413650",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

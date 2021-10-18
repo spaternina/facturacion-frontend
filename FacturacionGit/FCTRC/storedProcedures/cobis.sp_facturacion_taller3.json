@@ -61,7 +61,7 @@
 					"cantidad",
 					"subtotal"
 				],
-				"editMode": false,
+				"editMode": true,
 				"queryText": "select\r\n\t\t\u0027codigo\u0027 \t= f_codigo,\r\n\t\t\u0027producto\u0027 \t= f_producto,\r\n\t\t\u0027precio\u0027 \t= f_precio,\r\n\t\t\u0027cantidad\u0027 \t= f_cantidad,\r\n\t\t\u0027subtotal\u0027 \t= f_subtotal\r\n\tfrom"
 			}
 		],

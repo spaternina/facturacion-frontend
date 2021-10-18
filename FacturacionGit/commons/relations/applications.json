@@ -7,6 +7,14 @@
 				{
 					"generated": 4,
 					"moduleId": "FCTRC",
+					"name": "AgregarFacturaForm",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCYGANXUKB_650",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "FCTRC",
 					"name": "AgregarClienteForm",
 					"subModuleId": "FCTRS",
 					"taskId": "T_FCTRCZSPJQLDV_281",
