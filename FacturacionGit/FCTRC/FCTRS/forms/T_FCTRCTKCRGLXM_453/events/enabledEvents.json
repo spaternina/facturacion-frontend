@@ -14,5 +14,27 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_JJ58_LDD89",
+		"controlName": "QV_JJ58_LDD89",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowInserting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowUpdating",
+				"executionType": 3
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryViewEventType"
 	}
 ]

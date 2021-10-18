@@ -9,7 +9,7 @@
 
 
 	<groupId>com.cobiscorp.cobis</groupId>
-	<artifactId>fctrc.clienteforms.customevents.impl</artifactId>
+	<artifactId>fctrc.gridsforms.customevents.impl</artifactId>
 	<version>1.0.0</version>
 
 	<url>http://cobiscorp.com</url>
