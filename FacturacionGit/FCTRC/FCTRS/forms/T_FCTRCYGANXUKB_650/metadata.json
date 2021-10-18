@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FACTURAQM_653",
+			"isContextEntity": null,
+			"moduleId": "FCTRC",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

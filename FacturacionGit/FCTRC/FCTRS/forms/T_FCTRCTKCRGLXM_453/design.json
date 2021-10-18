@@ -76,7 +76,7 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
+								"Create"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -91,11 +91,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../FCTRC/entities/EN_CLIENTENN_301.json#/name"
@@ -123,6 +123,8 @@
 							"query": {
 								"$ref": "../../../../FCTRC/FCTRS/queries/Q_CLIETTET_YF58.json#"
 							},
+							"queryId": "Q_CLIETTET_YF58",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_JJ58_LDD89",

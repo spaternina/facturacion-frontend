@@ -1,8 +1,27 @@
 {
 	"databaseType": "Sybase",
 	"inputEntity": [
+		{
+			"entityId": "EN_FACTURAQM_653",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "Facturacion"
+			},
+			"name": "Factura"
+		}
 	],
 	"inputParameters": [
+		{
+			"attributeId": "AT74_CODIGOOD653",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_FACTURAQM_653",
+			"format": "",
+			"name": "@i_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
 		{
 			"attributeId": "",
 			"bddType": "char",
@@ -12,7 +31,18 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "S"
+			"value": "I"
+		},
+		{
+			"attributeId": "AT46_CANTIDDD653",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_FACTURAQM_653",
+			"format": "",
+			"name": "@i_cantidad",
+			"type": "ATTRIBUTE",
+			"value": ""
 		},
 		{
 			"attributeId": "",
@@ -24,22 +54,33 @@
 			"name": "@t_trn",
 			"type": "CONSTANT",
 			"value": "163030129"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "CUSTOM",
+			"value": "0"
 		}
 	],
-	"name": "BLI_RecuperarFacturas",
+	"name": "BLI_CrearFactura",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI8240_bli_recuperarfacturas",
-	"patternName": "BLI_RecuperarFacturas",
+	"patternId": "BLI3287_bli_crearfactura",
+	"patternName": "BLI_CrearFactura",
 	"patternType": "Bli",
 	"queries": [
 		{
 			"_idQuery": "57749def-b639-4de8-a134-99254ce25458",
 			"isMapReturn": true,
 			"isReturn": true,
-			"isSingleResult": false,
+			"isSingleResult": true,
 			"numberQuery": 1,
 			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= f_codigo,\r\n\t\t\u0027producto\u0027 \t= f_producto,\r\n\t\t\u0027precio\u0027 \t= f_precio,\r\n\t\t\u0027cantidad\u0027 \t= f_cantidad,\r\n\t\t\u0027subtotal\u0027 \t= f_subtotal\r\n\tfrom"
 		}
@@ -47,14 +88,6 @@
 	"resultSets": [
 	],
 	"returnEntity": [
-		{
-			"entityId": "EN_FACTURAQM_653",
-			"module": {
-				"moduleId": "FCTRC",
-				"moduleName": "Facturacion"
-			},
-			"name": "Factura"
-		}
 	],
 	"serverName": "CENTRAL",
 	"serviceID": "cobis.sp_facturacion_taller3",

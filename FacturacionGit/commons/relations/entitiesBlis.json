@@ -1,9 +1,30 @@
 {
-
 	"FCTRC": [
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_FACTURAQM_653",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3287_bli_crearfactura",
+			"nameBli": "BLI_CrearFactura"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FACTURAQM_653",
+						"moduleId": "FCTRC",
+						"related": false
+					}
 				],
 				"outputEntity": [
 				],
@@ -15,26 +36,47 @@
 					}
 				]
 			},
-			"idBli": "BLI8240_bli_recuperarfacturas",
+			"idBli": "BLI4392_bli_recuperarfacturas",
 			"nameBli": "BLI_RecuperarFacturas"
 		},
-       {
-            "entities": {
-                "inputEntity": [
-                ],
-                "outputEntity": [
-                ],
-                "returnEntity": [
-                    {
-                        "entityId": "EN_CLIENTENN_301",
-                        "moduleId": "FCTRC",
-                        "related": false
-                    }
-                ]
-            },
-            "idBli": "BLI6437_bli_clientes_todos",
-            "nameBli": "BLI_Clientes_Todos"
-       }
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTENN_301",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI6437_bli_clientes_todos",
+			"nameBli": "BLI_Clientes_Todos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FACTURAQM_653",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURAQM_653",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8118_bli_consultarfactura",
+			"nameBli": "BLI_ConsultarFactura"
+		}
 	]
 }
-

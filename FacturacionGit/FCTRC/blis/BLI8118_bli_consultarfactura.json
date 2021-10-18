@@ -1,0 +1,127 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_FACTURAQM_653",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "Facturacion"
+			},
+			"name": "Factura"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "AT74_CODIGOOD653",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_FACTURAQM_653",
+			"format": "",
+			"name": "@i_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "AT46_CANTIDDD653",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_FACTURAQM_653",
+			"format": "",
+			"name": "@i_cantidad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030129"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "CUSTOM",
+			"value": "0"
+		}
+	],
+	"name": "BLI_ConsultarFactura",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8118_bli_consultarfactura",
+	"patternName": "BLI_ConsultarFactura",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "57749def-b639-4de8-a134-99254ce25458",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": true,
+			"numberQuery": 1,
+			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= f_codigo,\r\n\t\t\u0027producto\u0027 \t= f_producto,\r\n\t\t\u0027precio\u0027 \t= f_precio,\r\n\t\t\u0027cantidad\u0027 \t= f_cantidad,\r\n\t\t\u0027subtotal\u0027 \t= f_subtotal\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "57749def-b639-4de8-a134-99254ce25458",
+			"columns": [
+				{
+					"attributeId": "AT38_PRODUCOO653",
+					"entityId": "EN_FACTURAQM_653",
+					"format": "",
+					"name": "producto",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT50_PRECIOUM653",
+					"entityId": "EN_FACTURAQM_653",
+					"format": "",
+					"name": "precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": true
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_FACTURAQM_653",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "Facturacion"
+			},
+			"name": "Factura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_taller3",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
