@@ -1,0 +1,160 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_FACTAARR_JJ94_958",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_FACTAARR_JJ94",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_FACTURAQM_653",
+	"mainEntityModule": "FCTRC",
+	"mainEntityName": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/Entities/EN_FACTURAQM_653/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/FCTRS/Queries/Q_FACTAARR_JJ94/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "producto",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT38_PRODUCOO653"
+			},
+			"attributeQuery": "producto",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAAJ4J4497_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "subtotal",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT45_SUBTOTLA653"
+			},
+			"attributeQuery": "subtotal",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAJJJR4981_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cantidad",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT46_CANTIDDD653"
+			},
+			"attributeQuery": "cantidad",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAJR4JJ792_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "precio",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT50_PRECIOUM653"
+			},
+			"attributeQuery": "precio",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTARAJ49440_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigoProducto",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT74_CODIGOOD653"
+			},
+			"attributeQuery": "codigoProducto",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTARR4RJ297_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "FCTRS"
+			}
+		}
+	]
+}

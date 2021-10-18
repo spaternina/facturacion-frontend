@@ -6,12 +6,48 @@
 			"labels": [
 			]
 		},
+		"EN_FACTURAQM_653": {
+			"labels": [
+			]
+		},
 		"EN_PRODUCTOO_223": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
+		"T_FCTRCLOLSHYSL_123": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FACTURAQM_653": [
+					"AT38_PRODUCOO653",
+					"AT45_SUBTOTLA653",
+					"AT46_CANTIDDD653",
+					"AT50_PRECIOUM653",
+					"AT74_CODIGOOD653"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_FACTAARR_JJ94": [
+					"QM_FACTAAJ4J4497_02",
+					"QM_FACTAJJJR4981_05",
+					"QM_FACTAJR4JJ792_04",
+					"QM_FACTARAJ49440_03",
+					"QM_FACTARR4RJ297_01"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_FCTRCTKCRGLXM_453": {
 			"blis": [
 			],
@@ -47,6 +83,10 @@
 	},
 	"Queries": {
 		"Q_CLIETTET_YF58": {
+			"labels": [
+			]
+		},
+		"Q_FACTAARR_JJ94": {
 			"labels": [
 			]
 		},

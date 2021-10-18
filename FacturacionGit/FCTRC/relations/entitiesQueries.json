@@ -6,6 +6,13 @@
 			}
 		}
 	},
+	"EN_FACTURAQM_653": {
+		"queries": {
+			"Q_FACTAARR_JJ94": {
+				"$ref": "../FCTRS/queries/Q_FACTAARR_JJ94.json#"
+			}
+		}
+	},
 	"EN_PRODUCTOO_223": {
 		"queries": {
 			"Q_PRODTTTO_LQ22": {

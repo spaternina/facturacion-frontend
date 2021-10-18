@@ -1,0 +1,354 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "FCTRC",
+		"subModuleId": "FCTRS",
+		"taskId": "T_FCTRCLOLSHYSL_123",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_FACTURAKLN_664123",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../FCTRC/relations/componentKeys.json#/FCTRS/Forms/T_FCTRCLOLSHYSL_123/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "FCTRS",
+				"taskId": "T_FCTRCLOLSHYSL_123",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_FACTURAKLN_664123"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "FacturaForm",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_FACTURARMJ_915220",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1950",
+						"order": 1,
+						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+								"Create"
+							],
+							"allowPaging": false,
+							"allowPagingStr": "F",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": null,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": null,
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
+							"editMode": "0",
+							"entityName": {
+								"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT74_CODIGOOD653",
+								"AT38_PRODUCOO653",
+								"AT50_PRECIOUM653",
+								"AT46_CANTIDDD653",
+								"AT45_SUBTOTLA653"
+							],
+							"insertCommandEnabled": true,
+							"insertCommandEnabledStr": "T",
+							"isCustomized": false,
+							"modalSize": null,
+							"modeSelection": "None",
+							"moduleIdDialog": null,
+							"multiSelectEnabledStr": "F",
+							"name": "QV_JZ94_UEC45",
+							"options": 0,
+							"pageSize": null,
+							"query": {
+								"$ref": "../../../../FCTRC/FCTRS/queries/Q_FACTAARR_JJ94.json#"
+							},
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_JZ94_UEC45",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": null,
+							"taskIdDialog": null,
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": null
+						},
+						"queryViewId": "QV_JZ94_UEC45",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT50_PRECIOUM653"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "precio",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXDVX_275220",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT74_CODIGOOD653"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "codigoProducto",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXEPA_915220",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT45_SUBTOTLA653"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "subtotal",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXQQZ_141220",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT46_CANTIDDD653"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "cantidad",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXTUS_971220",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/attributes/AT38_PRODUCOO653"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "producto",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXWNW_137220",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_FACTURAMLL_220"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "FCTRC"
+					}
+				],
+				"name": "View of FacturaForm"
+			}
+		}
+	]
+}
