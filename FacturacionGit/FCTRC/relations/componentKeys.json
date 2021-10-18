@@ -20,6 +20,9 @@
 			"T_FCTRCTKCRGLXM_453": {
 				"name": "VerClientesForm"
 			},
+			"T_FCTRCYGANXUKB_650": {
+				"name": "AgregarFacturaForm"
+			},
 			"T_FCTRCZSPJQLDV_281": {
 				"name": "AgregarClienteForm"
 			}

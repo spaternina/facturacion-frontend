@@ -80,6 +80,36 @@
 			"subForms": [
 			]
 		},
+		"T_FCTRCYGANXUKB_650": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FACTURAQM_653": [
+					"AT38_PRODUCOO653",
+					"AT46_CANTIDDD653",
+					"AT50_PRECIOUM653",
+					"AT74_CODIGOOD653"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_BUSCARZGW_80685",
+				"LBL_FCTRC_CANTIDADD_30429",
+				"LBL_FCTRC_CODIGOYAK_98016",
+				"LBL_FCTRC_GUARDAROZ_16857",
+				"LBL_FCTRC_PRECIOEIZ_17650",
+				"LBL_FCTRC_PRODUCTOO_55383"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_FCTRCZSPJQLDV_281": {
 			"blis": [
 			],

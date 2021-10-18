@@ -35,7 +35,7 @@
 		"forms": {
 			"FCTRC": [
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "FCTRC",
 					"name": "FacturaForm",
 					"subModuleId": "FCTRS",

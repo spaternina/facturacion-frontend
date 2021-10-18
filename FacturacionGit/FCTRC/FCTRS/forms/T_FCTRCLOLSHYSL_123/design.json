@@ -82,7 +82,7 @@
 							"allowPagingStr": "F",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -93,10 +93,10 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": false,
 							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": null,
+							"dialogTitleLabelId": "LBL_FCTRC_AGREGARUR_36045",
 							"editCommandEnabled": false,
 							"editCommandEnabledStr": "F",
-							"editMode": "0",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../FCTRC/entities/EN_FACTURAQM_653.json#/name"
 							},
@@ -113,9 +113,9 @@
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "md",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "FCTRC",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_JZ94_UEC45",
 							"options": 0,
@@ -131,10 +131,10 @@
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": null,
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "FCTRS",
+							"taskIdDialog": "T_FCTRCYGANXUKB_650",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -143,7 +143,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_AGREGARFUA_413650"
 						},
 						"queryViewId": "QV_JZ94_UEC45",
 						"responsiveLayouts": null,
