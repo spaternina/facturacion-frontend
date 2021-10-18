@@ -7,10 +7,8 @@
 				{
 					"generated": 4,
 					"moduleId": "FCTRC",
-					"moduleName": "Facturacion",
 					"name": "AgregarClienteForm",
 					"subModuleId": "FCTRS",
-					"subModuleName": "Facturas",
 					"taskId": "T_FCTRCZSPJQLDV_281",
 					"type": "Simple form"
 				}
@@ -37,12 +35,18 @@
 		"forms": {
 			"FCTRC": [
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
-					"moduleName": "Facturacion",
+					"name": "FacturaForm",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCLOLSHYSL_123",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "FCTRC",
 					"name": "VerClientesForm",
 					"subModuleId": "FCTRS",
-					"subModuleName": "Facturas",
 					"taskId": "T_FCTRCTKCRGLXM_453",
 					"type": "Simple form"
 				}
