@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONYNJRUPP_468820",
+		"controlName": "VA_VABUTTONYNJRUPP_468820",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "visualAttributeEventType"
+	}
+]

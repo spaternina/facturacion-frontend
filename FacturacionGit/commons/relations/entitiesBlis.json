@@ -1,0 +1,21 @@
+{
+    "FCTRC": [
+        {
+            "entities": {
+                "inputEntity": [
+                ],
+                "outputEntity": [
+                ],
+                "returnEntity": [
+                    {
+                        "entityId": "EN_CLIENTENN_301",
+                        "moduleId": "FCTRC",
+                        "related": false
+                    }
+                ]
+            },
+            "idBli": "BLI6437_bli_clientes_todos",
+            "nameBli": "BLI_Clientes_Todos"
+        }
+    ]
+}

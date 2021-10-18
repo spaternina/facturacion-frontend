@@ -43,6 +43,35 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FCTRCZSPJQLDV_281": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTENN_301": [
+					"AT27_CEDULAWJ301",
+					"AT39_APELLIDO301",
+					"AT54_SEXORERS301",
+					"AT72_NOMBRETH301"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_APELLIDOO_28110",
+				"LBL_FCTRC_CEDULAIGH_89964",
+				"LBL_FCTRC_GUARDAROZ_16857",
+				"LBL_FCTRC_NOMBREQLJ_85335",
+				"LBL_FCTRC_SEXOYTCJH_47931"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {

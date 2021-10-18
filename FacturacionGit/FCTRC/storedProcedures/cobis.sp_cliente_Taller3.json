@@ -1,0 +1,134 @@
+{
+	"filename": "C:\\Users\\sebas\\Documentos\\clearminds\\Git Capacitacion\\Taller 3\\facturacion-backend\\Scripts\\Script-cliente.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_cliente_Taller3",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cedula"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_sexo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@w_codigo"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@o_codigo"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_error"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "f3e529ff-08f2-45a8-8985-da26db1a0408",
+				"columns": [
+					"codigo",
+					"nombre",
+					"apellido",
+					"cedula",
+					"sexo"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027codigo\u0027 \t= cl_codigo,\r\n\t\t\u0027nombre\u0027 \t= cl_nombre,\r\n\t\t\u0027apellido\u0027\t= cl_apellido,\r\n\t\t\u0027cedula\u0027\t= cl_cedula,\r\n\t\t\u0027sexo\u0027 \t\t= cl_sexo\r\n\tfrom"
+			},
+			{
+				"_idQuery": "94609460-c1dc-46ab-87eb-bd070dd33b3a",
+				"columns": [
+					"{UNDEFINED_COLUMNS:0}"
+				],
+				"editMode": true,
+				"queryText": "select * from"
+			}
+		],
+		"variables": [
+		]
+	}
+}
