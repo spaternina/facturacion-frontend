@@ -3,6 +3,9 @@
 		"EN_CLIENTENN_301": {
 			"name": "Cliente"
 		},
+		"EN_FACTURAQM_653": {
+			"name": "Factura"
+		},
 		"EN_PRODUCTOO_223": {
 			"name": "Producto"
 		}
@@ -11,6 +14,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_FCTRCLOLSHYSL_123": {
+				"name": "FacturaForm"
+			},
 			"T_FCTRCTKCRGLXM_453": {
 				"name": "VerClientesForm"
 			}
@@ -18,6 +24,9 @@
 		"Queries": {
 			"Q_CLIETTET_YF58": {
 				"name": "ClienteQuery"
+			},
+			"Q_FACTAARR_JJ94": {
+				"name": "FacturaQuery"
 			},
 			"Q_PRODTTTO_LQ22": {
 				"name": "ProductoQuery"

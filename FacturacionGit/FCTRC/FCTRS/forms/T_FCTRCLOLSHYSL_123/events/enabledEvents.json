@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_FACTAARR_JJ94",
+		"controlName": "FacturaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_FACTAARR_JJ94.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Factura",
+		"eventsType": "queryEventType"
+	}
+]
