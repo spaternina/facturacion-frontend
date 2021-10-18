@@ -1,0 +1,110 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CLIENTENN_301",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "Facturacion"
+			},
+			"name": "Cliente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030128"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "AT72_NOMBRETH301",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CLIENTENN_301",
+			"format": "",
+			"name": "@i_nombre",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT39_APELLIDO301",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CLIENTENN_301",
+			"format": "",
+			"name": "@i_apellido",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT27_CEDULAWJ301",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CLIENTENN_301",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT54_SEXORERS301",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "EN_CLIENTENN_301",
+			"format": "",
+			"name": "@i_sexo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_error",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_InsertarClientes",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5063_bli_insertarclientes",
+	"patternName": "BLI_InsertarClientes",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_Taller3",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

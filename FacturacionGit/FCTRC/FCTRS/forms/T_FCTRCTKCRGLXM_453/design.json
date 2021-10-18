@@ -126,6 +126,123 @@
 							"queryId": "Q_CLIETTET_YF58",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowInserting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_200QV_JJ58_LDD89_434",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
+									],
+									"executionType": 3,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowInserting",
+									"options": 0,
+									"queryView": "QV_JJ58_LDD89",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos insertados en una grilla sean comprometidos",
+										"eventId": 200,
+										"name": "RowInserting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								},
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowUpdating",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_203QV_JJ58_LDD89_820",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
+									],
+									"executionType": 3,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowUpdating",
+									"options": 0,
+									"queryView": "QV_JJ58_LDD89",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
+										"eventId": 203,
+										"name": "RowUpdating"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								},
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowDeleting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_204QV_JJ58_LDD89_585",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
+									],
+									"executionType": 3,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowDeleting",
+									"options": 0,
+									"queryView": "QV_JJ58_LDD89",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos eliminados en una grilla sean comprometidos.",
+										"eventId": 204,
+										"name": "RowDeleting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								}
 							],
 							"queryViewId": "QV_JJ58_LDD89",
 							"queryViewType": "Grid",
