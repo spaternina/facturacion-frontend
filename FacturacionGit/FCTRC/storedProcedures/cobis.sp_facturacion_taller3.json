@@ -1,0 +1,91 @@
+{
+	"filename": "C:\\Users\\willi\\Documents\\ConvertSP\\SP\\sp_facturacion.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_facturacion_taller3",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_codigo"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cantidad"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_tern"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "57749def-b639-4de8-a134-99254ce25458",
+				"columns": [
+					"codigo",
+					"producto",
+					"precio",
+					"cantidad",
+					"subtotal"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\u0027codigo\u0027 \t= f_codigo,\r\n\t\t\u0027producto\u0027 \t= f_producto,\r\n\t\t\u0027precio\u0027 \t= f_precio,\r\n\t\t\u0027cantidad\u0027 \t= f_cantidad,\r\n\t\t\u0027subtotal\u0027 \t= f_subtotal\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_precio"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_producto"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_subtotal"
+			}
+		]
+	}
+}

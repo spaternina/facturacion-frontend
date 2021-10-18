@@ -123,6 +123,8 @@
 							"query": {
 								"$ref": "../../../../FCTRC/FCTRS/queries/Q_FACTAARR_JJ94.json#"
 							},
+							"queryId": "Q_FACTAARR_JJ94",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_JZ94_UEC45",
