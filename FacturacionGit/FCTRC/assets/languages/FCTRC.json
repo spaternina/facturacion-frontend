@@ -1,10 +1,13 @@
 {
-    "FCTRC": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"FCTRC": {
+		"LBL": {
+			"LBL_FCTRC_APELLIDOO_28110": "Apellido",
+			"LBL_FCTRC_CEDULAIGH_89964": "Cedula",
+			"LBL_FCTRC_GUARDAROZ_16857": "Guardar",
+			"LBL_FCTRC_NOMBREQLJ_85335": "Nombre",
+			"LBL_FCTRC_SEXOYTCJH_47931": "Sexo"
+		},
+		"MSG": {
+		}
+	}
 }
