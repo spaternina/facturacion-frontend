@@ -19,6 +19,9 @@
 			},
 			"T_FCTRCTKCRGLXM_453": {
 				"name": "VerClientesForm"
+			},
+			"T_FCTRCZSPJQLDV_281": {
+				"name": "AgregarClienteForm"
 			}
 		},
 		"Queries": {
