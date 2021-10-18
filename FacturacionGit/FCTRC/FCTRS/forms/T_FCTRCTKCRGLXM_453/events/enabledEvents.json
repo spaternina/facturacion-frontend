@@ -23,15 +23,15 @@
 		"customEvents": [
 			{
 				"eventName": "rowDeleting",
-				"executionType": 3
+				"executionType": 7
 			},
 			{
 				"eventName": "rowInserting",
-				"executionType": 3
+				"executionType": 7
 			},
 			{
 				"eventName": "rowUpdating",
-				"executionType": 3
+				"executionType": 7
 			}
 		],
 		"entityName": "Cliente",

@@ -144,7 +144,7 @@
 											"actionType": "CUSTOM"
 										}
 									],
-									"executionType": 3,
+									"executionType": 7,
 									"filter": null,
 									"isCustomized": false,
 									"name": "RowInserting",
@@ -183,7 +183,7 @@
 											"actionType": "CUSTOM"
 										}
 									],
-									"executionType": 3,
+									"executionType": 7,
 									"filter": null,
 									"isCustomized": false,
 									"name": "RowUpdating",
@@ -222,7 +222,7 @@
 											"actionType": "CUSTOM"
 										}
 									],
-									"executionType": 3,
+									"executionType": 7,
 									"filter": null,
 									"isCustomized": false,
 									"name": "RowDeleting",
