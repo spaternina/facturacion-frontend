@@ -7,8 +7,10 @@
 				{
 					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "Facturacion",
 					"name": "AgregarClienteForm",
 					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
 					"taskId": "T_FCTRCZSPJQLDV_281",
 					"type": "Simple form"
 				}
@@ -27,7 +29,7 @@
 		"modules": [
 			"FCTRC"
 		],
-		"name": "ClienteForms"
+		"name": "AgregarForms"
 	},
 	"APP_GRIDSSERTFC_356": {
 		"externalModules": {
@@ -37,8 +39,10 @@
 				{
 					"generated": 0,
 					"moduleId": "FCTRC",
+					"moduleName": "Facturacion",
 					"name": "VerClientesForm",
 					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
 					"taskId": "T_FCTRCTKCRGLXM_453",
 					"type": "Simple form"
 				}
