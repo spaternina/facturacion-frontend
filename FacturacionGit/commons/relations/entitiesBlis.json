@@ -1,0 +1,21 @@
+{
+	"FCTRC": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURAQM_653",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8240_bli_recuperarfacturas",
+			"nameBli": "BLI_RecuperarFacturas"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030129"
+		}
+	],
+	"name": "BLI_RecuperarFacturas",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8240_bli_recuperarfacturas",
+	"patternName": "BLI_RecuperarFacturas",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "57749def-b639-4de8-a134-99254ce25458",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "select\r\n\t\t\u0027codigo\u0027 \t= f_codigo,\r\n\t\t\u0027producto\u0027 \t= f_producto,\r\n\t\t\u0027precio\u0027 \t= f_precio,\r\n\t\t\u0027cantidad\u0027 \t= f_cantidad,\r\n\t\t\u0027subtotal\u0027 \t= f_subtotal\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_FACTURAQM_653",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "Facturacion"
+			},
+			"name": "Factura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_taller3",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

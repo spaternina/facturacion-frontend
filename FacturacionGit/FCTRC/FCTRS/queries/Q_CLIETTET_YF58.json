@@ -46,7 +46,6 @@
 			"attribute": {
 				"$ref": "../../../FCTRC/entities/EN_CLIENTENN_301.json#/attributes/AT27_CEDULAWJ301"
 			},
-			"attributeQuery": "cedula",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -87,7 +86,6 @@
 			"attribute": {
 				"$ref": "../../../FCTRC/entities/EN_CLIENTENN_301.json#/attributes/AT54_SEXORERS301"
 			},
-			"attributeQuery": "sexo",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -108,7 +106,6 @@
 			"attribute": {
 				"$ref": "../../../FCTRC/entities/EN_CLIENTENN_301.json#/attributes/AT39_APELLIDO301"
 			},
-			"attributeQuery": "apellido",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
@@ -129,7 +126,6 @@
 			"attribute": {
 				"$ref": "../../../FCTRC/entities/EN_CLIENTENN_301.json#/attributes/AT72_NOMBRETH301"
 			},
-			"attributeQuery": "nombre",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
